@@ -18,6 +18,7 @@ if (seconds < 10) {
     seconds = `0${seconds}`
 }
 
+
 //EJERCICIO 3 ---->  PARTE DEL RELOJ
 setInterval(() => {
     var reloj = document.querySelector(".reloj");
