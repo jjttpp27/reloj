@@ -1,0 +1,27 @@
+*{
+    background-color: azure;
+}
+.reloj {
+    margin-top: 250PX;
+    font-size: 50px;
+    color: rgb(12, 170, 33);
+    text-align: center;
+}
+
+
+
+.saludo {
+    margin-top: 50px;
+    font-size: 1.8em;
+    text-align: center;
+    color:grey ;
+    
+}
+.fecha {
+    margin-top: 50px;
+    font-size: 1.2em;
+    text-align: center;
+    color:grey ;
+    
+    
+}
