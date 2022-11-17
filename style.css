@@ -1,27 +1,187 @@
-*{
-    background-color: azure;
-}
-.reloj {
-    margin-top: 250PX;
-    font-size: 50px;
-    color: rgb(12, 170, 33);
-    text-align: center;
+* {
+    background-color: #feffe6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
 }
 
 
 
-.saludo {
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6a700;
+}
+
+.containerPadre1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6a700;
+    height: 75px;
+
+
+}
+
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
-    font-size: 1.8em;
-    text-align: center;
-    color:grey ;
-    
 }
-.fecha {
+
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
     margin-top: 50px;
-    font-size: 1.2em;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container1Lenguaje {
+    margin-top: 13px;
+    background-color: #f6a700;
+}
+
+span {
+    background-color: #f6a700;
+}
+
+.botonMenu {
+    height: 4em;
+    padding: 1.5em;
+    border-radius: 20%;
+
+
+}
+
+.botonIdioma {
+    border-radius: 50%;
+    font-size: 12px;
+    background-color: #feffe6;
+    color: #f6a700;
+
+}
+
+.botonIdioma:hover {
+    color: rgba(150, 155, 20, 1) !important;
+    box-shadow: 0 4px 16px #feffe6;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+button {
+    color: #feffe6;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #f6a700;
+    border: 2px solid;
+    position: relative;
+
+
+}
+
+.botonMenu:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px #f6a700;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+
+.hr1 {
+    margin-top: 150px;
+    width: 80%;
+}
+
+.hr2 {
+    width: 75%;
+}
+
+.hr3 {
+    margin-top: 150px;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 80px;
     text-align: center;
-    color:grey ;
-    
-    
+}
+
+p {
+    width: 50%;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.icono {
+    margin: 10px;
+    width: 30px;
+    /* -webkit-filter: grayscale(50%); */
+    /* filter: grayscale(50%); */
+    background-color: #f6a700;
+}
+
+
+#logo {
+    width: 120px;
+    margin-right: 50px;
+    height: auto;
+    color: #333333
+}
+
+#reloj {
+    background-color: #f6a700;
+    font-size: 1em;
+    color: #008010;
+    text-align: left;
+}
+
+
+
+#saludo {
+    margin-top: 10px;
+    font-size: 0.8em;
+    text-align: left;
+    color: #feffe6;
+    background-color: #f6a700;
+
+}
+
+#fecha {
+    background-color: #f6a700;
+    font-size: 0.8em;
+    text-align: left;
+    color: #feffe6;
+
+}
+
+footer {
+    background-color: #f6a700;
+    height: 150px;
+    margin-top: 200px;
 }
